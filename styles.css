@@ -1,0 +1,53 @@
+body {
+  background-image: url(http://www.ishtar.it/wp/wp-content/uploads/2017/10/blueSpiritStudio_04.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 100px;
+}
+#content {
+  background: linear-gradient(to bottom right, #0000FF 0%, #FF0000 100%);
+  padding: 100px;
+  width: 960px;
+  margin: 0 auto;
+}
+#sacTown {
+  width: 25%;
+  height: 25%;
+}
+.text {
+  font-size: 15pt;
+  font-family: Ariel;
+}
+#bio {
+  float: right;
+  text-align: left;
+}
+.futbolImages, .albumImages {
+  display: inline-grid;
+  grid-template-columns: 125px 125px;
+  grid-template-rows: 125px 125px;
+  border: 5px double black;
+}
+.futbolImages {
+  float: right;
+}
+.futbol, .albums {
+  width: 125px;
+  height: 125px;
+}
+#topLeft {
+  grid-column: 1;
+  grid-row: 1;
+}
+#topRight {
+  grid-column: 2;
+  grid-row: 1;
+}
+#bottomleft {
+  grid-column: 1;
+  grid-row: 2;
+}
+#bottomRight {
+  grid-column: 2;
+  grid-row: 2;
+}

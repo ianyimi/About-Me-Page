@@ -6,45 +6,59 @@
     <!-- linking CSS -->
     <link rel="stylesheet" href="styles.css">
     <!-- linking all javascript files (including p5) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
     <script src="scripts.js" charset="utf-8"></script>
   </head>
   <body>
-    <h1>Isaiah Anyimi</h1>
+    <div id="content">
+      <h1>Isaiah Anyimi</h1>
+      <hr>
+      <div class="albumImages">
+        <img id="WrldOnDrugs" class="albums" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Wrld_on_Drugs.jpg/220px-Wrld_on_Drugs.jpg">
+        <img id="theLastRocket" class="albums" src="https://bloximages.newyork1.vip.townnews.com/ocolly.com/content/tncms/assets/v3/editorial/a/fa/afa3b7ea-e611-11e8-99e8-6fdf4bdaae3f/5be8c8f986546.image.jpg?resize=400%2C400">
+        <img id="fM" class="albums" src="https://media.pitchfork.com/photos/5bdb76860bf6273afe468664/1:1/w_320/fm_vince.jpg">
+        <img id="nahwc" class="albums" src="https://media.pitchfork.com/photos/5be20665855e410f812a91b6/1:1/w_320/Metro%20Boomin_Not%20All%20Heroes.jpg">
+      </div>
+      <!--img id="sacTown" src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1515188208%2Fskyline-sacramento-california-LADYBIRD0118.jpg%3Fitok%3DNer4TI-0&w=1000&c=sc&poi=face&q=70"-->
+      <p id="bio" class="text">bio</p>
+      <p id="hobbies" class="text">Hobbies/Interests</p>
+      <div class="futbolImages">
+        <img id="topLeft" class="futbol" src="https://s1.gifyu.com/images/tonikroos.gif">
+        <img id="topRight" class="futbol" src="https://media.giphy.com/media/51DIkLHkiJqpi/giphy.gif">
+        <img id="bottomleft" class="futbol" src="https://media.giphy.com/media/3o6fIPsLQ8iKAgwsU0/giphy.gif">
+        <img id="bottomRight" class="futbol" src="https://ugc.kn3.net/i/origin/https://45.media.tumblr.com/6f036b3f7da6db2d51f0730a38fc07b8/tumblr_nmiat9MIhq1qikcuzo1_400.gif">
+      </div>
+      <h2 class="h2">My Favorite Things</h2>
     <hr>
-    <img id="sacTown" src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1515188208%2Fskyline-sacramento-california-LADYBIRD0118.jpg%3Fitok%3DNer4TI-0&w=1000&c=sc&poi=face&q=70">
-    <p id="bio">bio</p>
-    <p id="hobbies">Hobbies/Interests</p>
-    <img class="futbol" src="https://s1.gifyu.com/images/tonikroos.gif">
-    <img class="futbol" src="https://media.giphy.com/media/51DIkLHkiJqpi/giphy.gif">
-    <img class="futbol" src="https://media.giphy.com/media/3o6fIPsLQ8iKAgwsU0/giphy.gif">
-    <img class="futbol" src="https://ugc.kn3.net/i/origin/https://45.media.tumblr.com/6f036b3f7da6db2d51f0730a38fc07b8/tumblr_nmiat9MIhq1qikcuzo1_400.gif">
-    <h2 class="h2">My Favorite Things</h2>
+      <p id="favContent" class="text">favorite content</p>
+      <div class="listOne">
+        <h3>Favorite Hobbies</h3>
+        <ul id="listOneContent" class="text">
+          <li>ex1</li>
+          <li>ex2</li>
+          <li>ex3</li>
+        </ul>
+      </div>
+      <div class="listTwo">
+        <h3>Key Interests</h3>
     <hr>
-    <p id="favContent">favorite content</p>
-    <div class="listOne">
-      <h3>Favorite Hobbies</h3>
-      <ul id="listOneContent">
-        <li>ex1</li>
-        <li>ex2</li>
-        <li>ex3</li>
-      </ul>
+        <ul id="listTwoContent" class="text">
+          <li>ex1</li>
+          <li>ex2</li>
+          <li>ex3</li>
+        </ul>
+      </div>
+      <h2 class="h2">WildCard</h2>
+    <hr>
+      <p id="wildCard" class="text">wildcard</p>
+      <h2 class="h2">Fishing in Stardew Valley!</h2>
+      <button type="button" name="Start" id="startGame"></button>
+      <div class="game"></div>
     </div>
-    <div class="listTwo">
-      <h3>Key Interests</h3>
-  <hr>
-      <ul>
-        <li>ex1</li>
-        <li>ex2</li>
-        <li>ex3</li>
-      </ul>
-    </div>
-    <h2 class="h2">WlidCard</h2>
-    <hr>
-    <p id="wildCard">wildcard</p>
-    <h2 class="h2">Fishing in Stardew Valley!</h2>
-    <button type="button" name="Start"></button>
   </body>
 </html>
