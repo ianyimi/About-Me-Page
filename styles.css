@@ -3,24 +3,19 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 #content {
   background: linear-gradient(to bottom right, #0000FF 0%, #FF0000 100%);
   padding: 100px;
   width: 960px;
+  height: 80%;
   margin: 0 auto;
-}
-#sacTown {
-  width: 25%;
-  height: 25%;
+  border: 3px solid black
 }
 .text {
   font-size: 15pt;
   font-family: Ariel;
-}
-#bio {
-  float: right;
-  text-align: left;
 }
 .futbolImages, .albumImages {
   display: inline-grid;
@@ -50,4 +45,20 @@ body {
 #bottomRight {
   grid-column: 2;
   grid-row: 2;
+}
+.lines {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 25px;
+}
+#bio {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: left;
+}
+#hobbies {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: left;
 }
