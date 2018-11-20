@@ -1,5 +1,5 @@
 body {
-  background-image: url(http://www.ishtar.it/wp/wp-content/uploads/2017/10/blueSpiritStudio_04.jpg);
+  background-image: url(https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1515188208%2Fskyline-sacramento-california-LADYBIRD0118.jpg%3Fitok%3DNer4TI-0&w=1000&c=sc&poi=face&q=70);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-top: 100px;
@@ -13,7 +13,7 @@ hr {
 }
 #content {
   background: linear-gradient(to bottom right, #0000FF 0%, #FF0000 100%);
-  padding: 100px;
+  padding: 35px;
   width: 960px;
   height: 80%;
   margin: 0 auto;
@@ -52,7 +52,7 @@ hr {
   grid-column: 2;
   grid-row: 2;
 }
-.lines {
+.sectionTop {
   display: inline-grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto;
@@ -67,4 +67,63 @@ hr {
   grid-column: 1;
   grid-row: 1;
   text-align: left;
+}
+#sectionMiddle {
+  display: grid;
+  grid-template-columns: auto, auto;
+  grid-template-rows: auto, auto;
+  grid-column-gap: 25px;
+}
+#favContent {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+#listOne {
+  grid-column: 1;
+  grid-row: 2;
+}
+#listTwo {
+  grid-column: 2;
+  grid-row: 2;
+}
+#startGame {
+  width: 50px;
+  height: 25px;
+}
+.game {
+  border: 2px solid black;
+}
+#gameZone {
+  padding: 10px;
+  background-color: white;
+  display: inline-grid;
+  grid-template-columns: 60px 40px;
+  grid-template-rows: 75px 75px 75px 75px 75px 75px;
+  grid-column-gap: 5px;
+  border-radius: 25px;
+}
+#catchBar {
+  grid-column: 2;
+  grid-row: 1 / span 6;
+}
+#gamePlayArea {
+  grid-column: 1;
+  grid-row: 1 / span 6;
+}
+#movingBar {
+  grid-column: 1;
+  grid-row: 6;
+  background-color: red;
+  opacity: 0.75;
+}
+#catchBarFill {
+  grid-column: 2;
+  grid-row: 6;
+  background-color: green;
+}
+#fish {
+  background-image: url(https://rlv.zcache.com/cute_8_bit_pixel_art_drawing_of_a_green_blue_fish_trucker_hat-r6ebc279a475948f7b7564694c67696f0_eahwi_8byvr_307.jpg?rvtype=content);
+  background-size: 60px 75px;
+  grid-column: 1;
+  grid-row: 3;
 }
